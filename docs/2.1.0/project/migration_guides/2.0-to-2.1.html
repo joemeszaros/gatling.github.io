@@ -223,7 +223,7 @@ Please use <tt class="docutils literal"><span class="pre">headers</span></tt> in
 if you&#8217;re using the Maven archetype:</p>
 <ul class="simple">
 <li>Remove <tt class="docutils literal"><span class="pre">props.disableCompiler</span></tt> in <tt class="docutils literal"><span class="pre">Engine.scala</span></tt></li>
-<li>Replace <tt class="docutils literal"><span class="pre">val</span> <span class="pre">projectRootDir</span> <span class="pre">=</span> <span class="pre">File(gatlingConfUrl).parents(2)</span></tt> by <tt class="docutils literal"><span class="pre">val</span> <span class="pre">projectRootDir</span> <span class="pre">=</span> <span class="pre">File(gatlingConfUrl).ancestor(3)</span></tt></li>
+<li>Replace <tt class="docutils literal"><span class="pre">val</span> <span class="pre">projectRootDir</span> <span class="pre">=</span> <span class="pre">File(gatlingConfUrl).parents(2)</span></tt> by <tt class="docutils literal"><span class="pre">val</span> <span class="pre">projectRootDir</span> <span class="pre">=</span> <span class="pre">gatlingConfUrl.ancestor(3)</span></tt></li>
 <li>Replace the imports:</li>
 </ul>
 <div class="highlight-scala"><div class="highlight"><pre><span class="k">import</span> <span class="nn">scala.tools.nsc.io.File</span>
