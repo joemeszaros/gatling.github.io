@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -29,8 +27,7 @@
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor.js"></script>
     <link rel="top" title="Gatling documentation" href="../index.html" />
     <link rel="up" title="General" href="index.html" />
     <link rel="next" title="Session" href="../session/index.html" />
@@ -103,10 +100,10 @@
 
       <nav id="navbar-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/download">DOWNLOAD</a></li>
-          <li class="active"><a href="/docs">DOCUMENTATION</a></li>
-          <li><a href="/services">PROFESSIONAL SERVICES</a></li>
+          <li><a href="/#/">HOME</a></li>
+          <li><a href="/#/download">DOWNLOAD</a></li>
+          <li class="active"><a href="/#/docs">DOCUMENTATION</a></li>
+          <li><a href="/#/services">PROFESSIONAL SERVICES</a></li>
           <li><a class="icon icon-github" href="https://github.com/gatling/gatling"></a></li>
           <li><a class="icon icon-twitter" href="https://twitter.com/GatlingTool"></a></li>
           <li><a class="icon icon-googlegroup" href="https://groups.google.com/forum/#!forum/gatling"></a></li>
@@ -151,14 +148,14 @@ See <a class="reference internal" href="configuration.html#gatling-cli-options">
 <p>Most of those charts are available for both the overall simulation report and for per request/group charts.</p>
 <div class="section" id="indicators">
 <h3>Indicators<a class="headerlink" href="#indicators" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-indicators.png"><img alt="DetailsIndicators" src="../_images/charts-indicators.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-indicators.png"><img alt="DetailsIndicators" src="../_images/charts-indicators.png" style="width: 1282.4px; height: 519.4px;" /></a>
 <p>This chart shows how response times are distributed among standard ranges.
 The right panel show number of OK/KO requests.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">these ranges can be configured in the <tt class="docutils literal"><span class="pre">gatling.conf</span></tt> file.</p>
 </div>
-<a class="reference internal image-reference" href="../_images/charts-statistics.png"><img alt="Statistics" src="../_images/charts-statistics.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-statistics.png"><img alt="Statistics" src="../_images/charts-statistics.png" style="width: 1267.0px; height: 663.6px;" /></a>
 <p>The top panel shows some standard statistics such as min, max, average, standard deviation and percentiles globally and per request.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -168,28 +165,28 @@ The right panel show number of OK/KO requests.</p>
 </div>
 <div class="section" id="active-users-over-time">
 <h3>Active users over time<a class="headerlink" href="#active-users-over-time" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-users.png"><img alt="ActiveUsers" src="../_images/charts-users.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-users.png"><img alt="ActiveUsers" src="../_images/charts-users.png" style="width: 1262.8px; height: 501.2px;" /></a>
 <p>This chart displays the active users during the simulation : total and per scenario.</p>
 </div>
 <div class="section" id="response-time-distribution">
 <h3>Response time distribution<a class="headerlink" href="#response-time-distribution" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-distrib.png"><img alt="ReponseTimeDistribution" src="../_images/charts-distrib.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-distrib.png"><img alt="ReponseTimeDistribution" src="../_images/charts-distrib.png" style="width: 1262.8px; height: 502.6px;" /></a>
 <p>This chart displays the distribution of the response times.</p>
 </div>
 <div class="section" id="response-time-percentiles-over-time">
 <h3>Response time percentiles over time<a class="headerlink" href="#response-time-percentiles-over-time" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-response-percentiles-per-sec.png"><img alt="ResponseTimePercentilesPerSecond" src="../_images/charts-response-percentiles-per-sec.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-response-percentiles-per-sec.png"><img alt="ResponseTimePercentilesPerSecond" src="../_images/charts-response-percentiles-per-sec.png" style="width: 1264.2px; height: 504.0px;" /></a>
 <p>This charts displays a variety of response time percentiles over time, but only for successful requests.
 As failed requests can end prematurely or be caused by timeouts, they would have a drastic effect on the percentiles computation.</p>
 </div>
 <div class="section" id="requests-per-second-over-time">
 <h3>Requests per second over time<a class="headerlink" href="#requests-per-second-over-time" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-requests-per-sec.png"><img alt="RequestsPerSecond" src="../_images/charts-requests-per-sec.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-requests-per-sec.png"><img alt="RequestsPerSecond" src="../_images/charts-requests-per-sec.png" style="width: 1267.0px; height: 501.2px;" /></a>
 <p>This chart displays the number of requests per second over time : total, successes and failures.</p>
 </div>
 <div class="section" id="responses-per-second-over-time">
 <h3>Responses per second over time<a class="headerlink" href="#responses-per-second-over-time" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-responses-per-sec.png"><img alt="TransactionsPerSecond" src="../_images/charts-responses-per-sec.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-responses-per-sec.png"><img alt="TransactionsPerSecond" src="../_images/charts-responses-per-sec.png" style="width: 1265.6px; height: 499.8px;" /></a>
 <p>This chart displays the number of responses received per second over time : total, successes and failures.</p>
 </div>
 </div>
@@ -198,18 +195,18 @@ As failed requests can end prematurely or be caused by timeouts, they would have
 <p>Those charts are only available when consulting the details for a request/group.</p>
 <div class="section" id="latency-over-time">
 <h3>Latency over time<a class="headerlink" href="#latency-over-time" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-latency-percentiles-per-sec.png"><img alt="LatencyOverTime" src="../_images/charts-latency-percentiles-per-sec.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-latency-percentiles-per-sec.png"><img alt="LatencyOverTime" src="../_images/charts-latency-percentiles-per-sec.png" style="width: 1264.2px; height: 502.6px;" /></a>
 <p>This charts displays a variety of latency percentiles over time, but only for successful requests.
 As failed requests can end prematurely or be caused by timeouts, they would have a drastic effect on the percentiles computation.</p>
 </div>
 <div class="section" id="response-time-against-global-rps">
 <h3>Response Time against Global RPS<a class="headerlink" href="#response-time-against-global-rps" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-response-time-global-rps.png"><img alt="ResponseTimeOverLoad" src="../_images/charts-response-time-global-rps.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-response-time-global-rps.png"><img alt="ResponseTimeOverLoad" src="../_images/charts-response-time-global-rps.png" style="width: 1267.0px; height: 504.0px;" /></a>
 <p>This chart shows how the response time for the given request is distributed, depending on the overnall number of request at the same time.</p>
 </div>
 <div class="section" id="latency-against-global-rps">
 <h3>Latency against Global RPS<a class="headerlink" href="#latency-against-global-rps" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/charts-latency-global-rps.png"><img alt="LatencyOverLoad" src="../_images/charts-latency-global-rps.png" /></a>
+<a class="reference internal image-reference" href="../_images/charts-latency-global-rps.png"><img alt="LatencyOverLoad" src="../_images/charts-latency-global-rps.png" style="width: 1265.6px; height: 501.2px;" /></a>
 <p>This chart shows how the latency for the given request is distributed, depending on the overall number of requests at the same time.</p>
 </div>
 </div>

@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -29,8 +27,7 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor.js"></script>
     <link rel="top" title="Gatling documentation" href="../../index.html" />
     <link rel="up" title="Migration guides" href="index.html" />
     <link rel="next" title="FAQ" href="../faq.html" />
@@ -103,10 +100,10 @@
 
       <nav id="navbar-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/download">DOWNLOAD</a></li>
-          <li class="active"><a href="/docs">DOCUMENTATION</a></li>
-          <li><a href="/services">PROFESSIONAL SERVICES</a></li>
+          <li><a href="/#/">HOME</a></li>
+          <li><a href="/#/download">DOWNLOAD</a></li>
+          <li class="active"><a href="/#/docs">DOCUMENTATION</a></li>
+          <li><a href="/#/services">PROFESSIONAL SERVICES</a></li>
           <li><a class="icon icon-github" href="https://github.com/gatling/gatling"></a></li>
           <li><a class="icon icon-twitter" href="https://twitter.com/GatlingTool"></a></li>
           <li><a class="icon icon-googlegroup" href="https://groups.google.com/forum/#!forum/gatling"></a></li>
@@ -221,7 +218,7 @@ Please use <tt class="docutils literal"><span class="pre">headers</span></tt> in
 <h2>Maven Archetype<a class="headerlink" href="#maven-archetype" title="Permalink to this headline">¶</a></h2>
 <p>Due to some necessary changes to allow Gatling to use Scala 2.11, you&#8217;ll have to update <tt class="docutils literal"><span class="pre">IDEPathHelper.scala</span></tt>, <tt class="docutils literal"><span class="pre">Engine.scala</span></tt> and <tt class="docutils literal"><span class="pre">Recorder.scala</span></tt>
 if you&#8217;re using the Maven archetype.</p>
-<p>Either generate a new project with the 2.1.1 archetype (there was a bug in 2.1), or override your classes with the ones <a class="reference external" href="https://github.com/gatling/gatling-maven/tree/gatling-maven-parent-2.1.1/gatling-highcharts-maven-archetype/src/main/scala">here</a>.
+<p>Either generate a new project with the 2.1 archetype, or override your classes with the ones <a class="reference external" href="https://github.com/gatling/gatling-maven/tree/gatling-maven-parent-2.1.1/gatling-highcharts-maven-archetype/src/main/scala">here</a>.
 If you choose the latter, don&#8217;t forget to fix the <tt class="docutils literal"><span class="pre">simulationPackage</span></tt> in <tt class="docutils literal"><span class="pre">Recorder.scala</span></tt>.</p>
 </div>
 <div class="section" id="sbt-plugin">

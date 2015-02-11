@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -29,8 +27,7 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor.js"></script>
     <link rel="top" title="Gatling documentation" href="../../index.html" />
     <link rel="up" title="Reference" href="index.html" />
     <link rel="next" title="Reports" href="reports.html" />
@@ -103,10 +100,10 @@
 
       <nav id="navbar-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/download">DOWNLOAD</a></li>
-          <li><a href="/docs">DOCUMENTATION</a></li>
-          <li><a href="/services">PROFESSIONAL SERVICES</a></li>
+          <li><a href="/#/">HOME</a></li>
+          <li><a href="/#/download">DOWNLOAD</a></li>
+          <li class="active"><a href="/#/docs">DOCUMENTATION</a></li>
+          <li><a href="/#/services">PROFESSIONAL SERVICES</a></li>
           <li><a class="icon icon-github" href="https://github.com/gatling/gatling"></a></li>
           <li><a class="icon icon-twitter" href="https://twitter.com/GatlingTool"></a></li>
           <li><a class="icon icon-googlegroup" href="https://groups.google.com/forum/#!forum/gatling"></a></li>
@@ -161,16 +158,16 @@
 </div>
 <div class="section" id="configuration">
 <h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
-<a class="reference internal image-reference" href="../../_images/recorder-configuration_frame.png"><img alt="Configuration frame" src="../../_images/recorder-configuration_frame.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-configuration_frame.png"><img alt="Configuration frame" src="../../_images/recorder-configuration_frame.png" style="width: 715.4px; height: 521.5px;" /></a>
 <div class="section" id="local-ports">
 <h3>Local ports<a class="headerlink" href="#local-ports" title="Permalink to this headline">¶</a></h3>
 <p>The recorder can log HTTP and HTTPS requests, therefore, it can listen on two ports, one for each protocol.</p>
 <div class="section" id="configuring-your-browser">
 <span id="recorder-browser-config"></span><h4>Configuring your browser<a class="headerlink" href="#configuring-your-browser" title="Permalink to this headline">¶</a></h4>
 <p>To use the recorder, you have to configure your browser so that it uses the recorder as a proxy. To do so, use the &#8220;Settings&#8221; menu of the browser.</p>
-<a class="reference internal image-reference" href="../../_images/recorder-browser_settings.png"><img alt="Browser settings" src="../../_images/recorder-browser_settings.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-browser_settings.png"><img alt="Browser settings" src="../../_images/recorder-browser_settings.png" style="width: 263.2px; height: 216.3px;" /></a>
 <p>In the &#8220;Advanced settings&#8221; tab, click on &#8220;Network&#8221; (or &#8220;Connection&#8221;) and change the settings to the recorder ports for HTTP and HTTPS. Update also the &#8220;No Proxy for&#8221; setting so that it fits your need.</p>
-<a class="reference internal image-reference" href="../../_images/recorder-browser_advanced_settings.png"><img alt="Browser advanced settings" src="../../_images/recorder-browser_advanced_settings.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-browser_advanced_settings.png"><img alt="Browser advanced settings" src="../../_images/recorder-browser_advanced_settings.png" style="width: 782.6px; height: 401.8px;" /></a>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">HTTPS port isn&#8217;t mandatory if you don&#8217;t plan to use an HTTPS connection.</p>
@@ -201,7 +198,7 @@
 </ul>
 <p><strong>Example</strong>: To exclude all css files with Ant pattern, specify: <tt class="docutils literal"><span class="pre">/**/*.css</span></tt>. The easiest way is to specify: <tt class="docutils literal"><span class="pre">*.css</span></tt>, but this pattern will exclude all css files located <strong>only</strong> at the root of the path.</p>
 <p>The <tt class="docutils literal"><span class="pre">-</span></tt> button is used to delete one or more entries in the table. The right click is also defined to remove directly one or many entries at the same time.</p>
-<a class="reference internal image-reference" href="../../_images/recorder-filters_delete.png"><img alt="Filters delete" src="../../_images/recorder-filters_delete.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-filters_delete.png"><img alt="Filters delete" src="../../_images/recorder-filters_delete.png" style="width: 558.6px; height: 119.0px;" /></a>
 <p>The <tt class="docutils literal"><span class="pre">Clear</span></tt> button removes all filters.</p>
 </div>
 <div class="section" id="output">
@@ -228,7 +225,7 @@
 </div>
 <div class="section" id="running">
 <h2>Running...<a class="headerlink" href="#running" title="Permalink to this headline">¶</a></h2>
-<a class="reference internal image-reference" href="../../_images/recorder-running_frame.png"><img alt="Running frame" src="../../_images/recorder-running_frame.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-running_frame.png"><img alt="Running frame" src="../../_images/recorder-running_frame.png" style="width: 714.0px; height: 521.5px;" /></a>
 <div class="section" id="recorded-events">
 <h3>Recorded Events<a class="headerlink" href="#recorded-events" title="Permalink to this headline">¶</a></h3>
 <p>As you navigate through your application, the recorder will log three kinds of events:</p>

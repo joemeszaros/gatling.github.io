@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/vendor/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -29,8 +27,7 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
-    <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor.js"></script>
     <link rel="top" title="Gatling documentation" href="../../index.html" />
     <link rel="up" title="Tutorial" href="index.html" />
     <link rel="next" title="Advanced Usage" href="advanced_usage.html" />
@@ -103,10 +100,10 @@
 
       <nav id="navbar-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/download">DOWNLOAD</a></li>
-          <li><a href="/docs">DOCUMENTATION</a></li>
-          <li><a href="/services">PROFESSIONAL SERVICES</a></li>
+          <li><a href="/#/">HOME</a></li>
+          <li><a href="/#/download">DOWNLOAD</a></li>
+          <li class="active"><a href="/#/docs">DOCUMENTATION</a></li>
+          <li><a href="/#/services">PROFESSIONAL SERVICES</a></li>
           <li><a class="icon icon-github" href="https://github.com/gatling/gatling"></a></li>
           <li><a class="icon icon-twitter" href="https://twitter.com/GatlingTool"></a></li>
           <li><a class="icon icon-googlegroup" href="https://groups.google.com/forum/#!forum/gatling"></a></li>
@@ -232,7 +229,7 @@
 <div class="section" id="configuration">
 <h3>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h3>
 <p>Once launched, you get the following GUI, which lets use configure how requests and response will be recorded:</p>
-<a class="reference internal image-reference" href="../../_images/recorder-configuration_frame1.png"><img alt="Gatling Recorder - Configuration Frame" src="../../_images/recorder-configuration_frame1.png" /></a>
+<a class="reference internal image-reference" href="../../_images/recorder-configuration_frame1.png"><img alt="Gatling Recorder - Configuration Frame" src="../../_images/recorder-configuration_frame1.png" style="width: 613.2px; height: 447.0px;" /></a>
 <p>After configuring the recorder, all you have to do is to start it and configure your browser to use Gatling Recorder&#8217;s proxy.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -461,7 +458,7 @@ username=user1&amp;password=password1
 <h2>Running the simulation<a class="headerlink" href="#running-the-simulation" title="Permalink to this headline">¶</a></h2>
 <p>Great! We have completely defined our first scenario, now we want to run it with Gatling. To do so, all we have to do is to move the file in <tt class="docutils literal"><span class="pre">user-files/simulations/</span></tt> and run Gatling as seen in <a class="reference internal" href="getting_started.html#getting-started"><em>Getting Started</em></a>.</p>
 <p>Choose your simulation and press <strong>Enter</strong> to run it! Here is what it looks like:</p>
-<a class="reference internal image-reference" href="../../_images/cli_gatling_basic_usage.png"><img alt="Gatling's Command Line" src="../../_images/cli_gatling_basic_usage.png" /></a>
+<a class="reference internal image-reference" href="../../_images/cli_gatling_basic_usage.png"><img alt="Gatling's Command Line" src="../../_images/cli_gatling_basic_usage.png" style="width: 584.4px; height: 289.2px;" /></a>
 </div>
 <div class="section" id="analyzing-the-simulation">
 <h2>Analyzing the simulation<a class="headerlink" href="#analyzing-the-simulation" title="Permalink to this headline">¶</a></h2>
@@ -470,7 +467,7 @@ username=user1&amp;password=password1
 <div class="section" id="active-sessions">
 <h3>Active Sessions<a class="headerlink" href="#active-sessions" title="Permalink to this headline">¶</a></h3>
 <p>This report simply shows the number of active sessions (or active users) per second during the simulation:</p>
-<a class="reference internal image-reference" href="../../_images/active_sessions_basic_usage.png"><img alt="Active Sessions Report" src="../../_images/active_sessions_basic_usage.png" /></a>
+<a class="reference internal image-reference" href="../../_images/active_sessions_basic_usage.png"><img alt="Active Sessions Report" src="../../_images/active_sessions_basic_usage.png" style="width: 644.7px; height: 281.4px;" /></a>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">As we will see in <a class="reference internal" href="advanced_usage.html#multi-scenarios"><em>Advanced Usage</em></a>, there might be several sessions corresponding to the different scenarios used in the simulation.</p>
@@ -479,12 +476,12 @@ username=user1&amp;password=password1
 <div class="section" id="number-of-requests-per-second">
 <h3>Number of Requests per Second<a class="headerlink" href="#number-of-requests-per-second" title="Permalink to this headline">¶</a></h3>
 <p>This report shows the number of requests per second that Gatling sent to your application. This gives you an idea of the load that was generated during the simulation.</p>
-<a class="reference internal image-reference" href="../../_images/requests_basic_usage.png"><img alt="Requests per Second Report" src="../../_images/requests_basic_usage.png" /></a>
+<a class="reference internal image-reference" href="../../_images/requests_basic_usage.png"><img alt="Requests per Second Report" src="../../_images/requests_basic_usage.png" style="width: 644.7px; height: 282.8px;" /></a>
 </div>
 <div class="section" id="request-details">
 <h3>Request Details<a class="headerlink" href="#request-details" title="Permalink to this headline">¶</a></h3>
 <p>These reports contain various charts and some statistics about the request they present:</p>
-<a class="reference internal image-reference" href="../../_images/req_details_basic_usage.png"><img alt="Request Details Report" src="../../_images/req_details_basic_usage.png" /></a>
+<a class="reference internal image-reference" href="../../_images/req_details_basic_usage.png"><img alt="Request Details Report" src="../../_images/req_details_basic_usage.png" style="width: 644.7px; height: 696.5px;" /></a>
 </div>
 </div>
 <div class="section" id="going-further">
