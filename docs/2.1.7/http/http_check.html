@@ -475,13 +475,19 @@ For example, <code class="docutils literal"><span class="pre">status</span></cod
 </div>
 <p>Always true, used for capture an optional value.</p>
 <ul class="simple" id="http-check-validate">
-<li><code class="docutils literal"><span class="pre">validate(name,</span> <span class="pre">validator)</span></code></li>
+<li><code class="docutils literal"><span class="pre">validate(validator)</span></code></li>
 </ul>
 <p>Built-ins validation steps actually resolve to this method.</p>
 <p><em>name</em> is the String that would be used to describe this part in case of a failure in the final error message.</p>
-<p><em>validator</em> is a <code class="docutils literal"><span class="pre">(Option[X],</span> <span class="pre">Session)</span> <span class="pre">=&gt;</span> <span class="pre">Validation[Option[X]]</span></code> function that performs the validation logic.
-Input is the actual extracted value and the Session.
-Output is a the Validation: a Success containing the value to be passed to the next step, a Failure with the error message otherwise.</p>
+<p><em>validator</em> is a <code class="docutils literal"><span class="pre">Expression[Validator[X]]</span></code> function that performs the validation logic.</p>
+<div class="highlight-scala"><div class="highlight"><pre><span class="k">trait</span> <span class="nc">Validator</span><span class="o">[</span><span class="kt">A</span><span class="o">]</span> <span class="o">{</span>
+  <span class="k">def</span> <span class="n">name</span><span class="k">:</span> <span class="kt">String</span>
+  <span class="k">def</span> <span class="n">apply</span><span class="o">(</span><span class="n">actual</span><span class="k">:</span> <span class="kt">Option</span><span class="o">[</span><span class="kt">A</span><span class="o">])</span><span class="k">:</span> <span class="kt">Validation</span><span class="o">[</span><span class="kt">Option</span><span class="o">[</span><span class="kt">A</span><span class="o">]]</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal"><span class="pre">apply</span></code> method takes the actual extracted value and return a the Validation:
+a Success containing the value to be passed to the next step, a Failure with the error message otherwise.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">In the case where no verifying step is defined, a <code class="docutils literal"><span class="pre">exists</span></code> is added implicitly.</p>
@@ -585,7 +591,7 @@ Output is a the Validation: a Success containing the value to be passed to the n
   </div>
 </section>
 
-<footer id="footer">
+<footer id="footer" style="position:static">
   <section class="row-fluid">
     <div class="content-wrapper text-center">&copy;2015 Gatling Corp 2000-2015</div>
   </section>

@@ -139,7 +139,7 @@
 <p>Thanks to this plugin, Gatling can be launched when building your project, for example with your favorite CI solution.</p>
 <div class="section" id="versions">
 <h2>Versions<a class="headerlink" href="#versions" title="Permalink to this headline">¶</a></h2>
-<p>Check out available versions on <cite>Maven Central &lt;http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22io.gatling%22%20AND%20a%3A%22gatling-maven-plugin%22&gt;</cite>.</p>
+<p>Check out available versions on <a class="reference external" href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22io.gatling%22%20AND%20a%3A%22gatling-maven-plugin%22">Maven Central</a>.</p>
 <p>Beware that milestones (M versions) are undocumented and releases for Gatling customers.</p>
 </div>
 <div class="section" id="set-up-the-gatling-maven-plugin">
@@ -169,11 +169,11 @@
 <span id="maven-advanced-configuration"></span><h2>Optional advanced configuration<a class="headerlink" href="#optional-advanced-configuration" title="Permalink to this headline">¶</a></h2>
 <p>The example below shows the default values.</p>
 <div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;configuration&gt;</span>
-  <span class="nt">&lt;configFolder&gt;</span>src/test/resources<span class="nt">&lt;/configFolder&gt;</span>
-  <span class="nt">&lt;dataFolder&gt;</span>src/test/resources/data<span class="nt">&lt;/dataFolder&gt;</span>
-  <span class="nt">&lt;resultsFolder&gt;</span>target/gatling/results<span class="nt">&lt;/resultsFolder&gt;</span>
-  <span class="nt">&lt;bodiesFolder&gt;</span>src/test/resources/bodies<span class="nt">&lt;/bodiesFolder&gt;</span>
-  <span class="nt">&lt;simulationsFolder&gt;</span>src/test/scala<span class="nt">&lt;/simulationsFolder&gt;</span>
+  <span class="nt">&lt;configFolder&gt;</span>${project.basedir}/src/test/resources<span class="nt">&lt;/configFolder&gt;</span>
+  <span class="nt">&lt;dataFolder&gt;</span>${project.basedir}/src/test/resources/data<span class="nt">&lt;/dataFolder&gt;</span>
+  <span class="nt">&lt;resultsFolder&gt;</span>${project.basedir}/target/gatling/results<span class="nt">&lt;/resultsFolder&gt;</span>
+  <span class="nt">&lt;bodiesFolder&gt;</span>${project.basedir}/src/test/resources/bodies<span class="nt">&lt;/bodiesFolder&gt;</span>
+  <span class="nt">&lt;simulationsFolder&gt;</span>${project.basedir}/src/test/scala<span class="nt">&lt;/simulationsFolder&gt;</span>
 <span class="c">&lt;!--    &lt;noReports&gt;false&lt;/noReports&gt; --&gt;</span>
 <span class="c">&lt;!--   &lt;reportsOnly&gt;directoryName&lt;/reportsOnly&gt; --&gt;</span>
 <span class="c">&lt;!--   &lt;simulationClass&gt;foo.Bar&lt;/simulationClass&gt; --&gt;</span>
@@ -300,7 +300,7 @@ If you do so, beware that those won&#8217;t be used when running <code class="do
   </div>
 </section>
 
-<footer id="footer">
+<footer id="footer" style="position:static">
   <section class="row-fluid">
     <div class="content-wrapper text-center">&copy;2015 Gatling Corp 2000-2015</div>
   </section>
