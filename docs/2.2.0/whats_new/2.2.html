@@ -9,30 +9,30 @@
     
     <title>What’s New in 2.2 &mdash; Gatling documentation</title>
     
-    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
     <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '2.0.0-SNAPSHOT',
+        URL_ROOT:    '../',
+        VERSION:     '2.2.0',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
       };
     </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
     <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
     <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
-    <link rel="top" title="Gatling documentation" href="../../index.html" />
-    <link rel="up" title="Migration guides" href="index.html" />
-    <link rel="next" title="Migration guides" href="../migration_guides/index.html" />
-    <link rel="prev" title="Migration guides" href="index.html" />
+    <link rel="top" title="Gatling documentation" href="../index.html" />
+    <link rel="up" title="What’s New" href="index.html" />
+    <link rel="next" title="Migration Guides" href="../migration_guides/index.html" />
+    <link rel="prev" title="What’s New" href="index.html" />
 <!--[if IE]>
 <script src="/vendor/javascripts/html5shiv.min.js"></script>
 <![endif]-->
@@ -78,7 +78,7 @@
 <header id="header" class="navbar navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar" role="navigation">
-      <form action="../../search.html" class="col-xs-12 col-sm-6 col-md-4" method="get" role="form">
+      <form action="../search.html" class="col-xs-12 col-sm-6 col-md-4" method="get" role="form">
         <div class="form-group">
           <div class="input-group">
             <input type="text" class="form-control" name="q" placeholder="Search through the documentation"/>
@@ -121,15 +121,10 @@
     <section class="row">
       <div class="col-md-9">
           <ul class="breadcrumb">
-            <li><a href="../../index.html">Gatling documentation</a></li>
-            <li><a href="../index.html"
-              >
-              Project Information
-              </a>
-            </li>
+            <li><a href="../index.html">Gatling documentation</a></li>
             <li><a href="index.html"
               accesskey="U">
-              Migration guides
+              What&#8217;s New
               </a>
             </li>
             <li><a href="">
@@ -148,7 +143,7 @@ JVM default tuning uses G1 Garbage Collector, so we strongly advice you use a ve
 <h2>Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="feeder-shuffle">
 <h3>Feeder Shuffle<a class="headerlink" href="#feeder-shuffle" title="Permalink to this headline">¶</a></h3>
-<p>You can now <code class="docutils literal"><span class="pre">shuffle</span></code> a feeder content before enqueuing its content, see <a class="reference internal" href="../../session/feeder.html#feeder"><span>Feeder documentation</span></a> for more details.</p>
+<p>You can now <code class="docutils literal"><span class="pre">shuffle</span></code> a feeder content before enqueuing its content, see <a class="reference internal" href="../session/feeder.html#feeder"><span>Feeder documentation</span></a> for more details.</p>
 </div>
 <div class="section" id="assertions">
 <h3>Assertions<a class="headerlink" href="#assertions" title="Permalink to this headline">¶</a></h3>
@@ -176,11 +171,11 @@ You&#8217;re expected to manually add the suited library to Gatling&#8217;s clas
 <div class="section" id="forms-support">
 <h3>Forms Support<a class="headerlink" href="#forms-support" title="Permalink to this headline">¶</a></h3>
 <p>You can now use the <code class="docutils literal"><span class="pre">form(&quot;cssSelector&quot;).saveAs(&quot;myForm&quot;)</span></code> check to capture a <code class="docutils literal"><span class="pre">Map[String,</span> <span class="pre">Seq[String]]</span></code> of all the inputs of an HTML form at once.</p>
-<p>You can then feed them back to a later request. See <a class="reference internal" href="../../http/http_request.html#http-parameters"><span>HTTP request documentation</span></a> for more details.</p>
+<p>You can then feed them back to a later request. See <a class="reference internal" href="../http/http_request.html#http-parameters"><span>HTTP request documentation</span></a> for more details.</p>
 </div>
 <div class="section" id="polling-support">
 <h3>Polling Support<a class="headerlink" href="#polling-support" title="Permalink to this headline">¶</a></h3>
-<p>Gatling now supports HTTP polling, see <a class="reference internal" href="../../http/polling.html#http-polling"><span>HTTP polling documentation</span></a> for more details.</p>
+<p>Gatling now supports HTTP polling, see <a class="reference internal" href="../http/polling.html#http-polling"><span>HTTP polling documentation</span></a> for more details.</p>
 </div>
 <div class="section" id="hostname-resolution">
 <h3>Hostname Resolution<a class="headerlink" href="#hostname-resolution" title="Permalink to this headline">¶</a></h3>
@@ -194,12 +189,12 @@ See <span class="xref std std-ref">HTTP protocol documentation</span> for more d
 <div class="section" id="hostname-aliasing">
 <h3>Hostname Aliasing<a class="headerlink" href="#hostname-aliasing" title="Permalink to this headline">¶</a></h3>
 <p>You can bypass hostname resolution and define aliases in <code class="docutils literal"><span class="pre">hostNameAliases</span></code> on the HTTP protocol.
-See <a class="reference internal" href="../../http/http_protocol.html#http-protocol-hostname-aliasing"><span>HTTP protocol documentation</span></a> for more details.</p>
+See <a class="reference internal" href="../http/http_protocol.html#http-protocol-hostname-aliasing"><span>HTTP protocol documentation</span></a> for more details.</p>
 </div>
 <div class="section" id="local-addresses">
 <h3>Local Addresses<a class="headerlink" href="#local-addresses" title="Permalink to this headline">¶</a></h3>
 <p>It&#8217;s now possible to pass multiple local addresses to the HTTP protocol in <code class="docutils literal"><span class="pre">localAddresses</span></code>.
-See <a class="reference internal" href="../../http/http_protocol.html#http-protocol-local-address"><span>HTTP protocol documentation</span></a> for more details.</p>
+See <a class="reference internal" href="../http/http_protocol.html#http-protocol-local-address"><span>HTTP protocol documentation</span></a> for more details.</p>
 </div>
 </div>
 <div class="section" id="reports">
@@ -259,18 +254,18 @@ At some point, we&#8217;ll provide a native support.</p>
 <hr>
 <ul class="nav">
   <li>
-    <a href="https://github.com/gatling/gatling/edit/master/src/sphinx/project/whats_new/2.2.rst">Edit this page on Github</a>
+    <a href="https://github.com/gatling/gatling/edit/master/src/sphinx/whats_new/2.2.rst">Edit this page on Github</a>
   </li>
   <h5>Previous topic</h5>
   <li>
-    <a href="index.html" title="Previous Chapter: Migration guides">
-      Migration guides
+    <a href="index.html" title="Previous Chapter: What’s New">
+      What’s New
     </a>
   </li>
   <h5>Next topic</h5>
   <li>
-    <a href="../migration_guides/index.html" title="Next Chapter: Migration guides">
-      Migration guides
+    <a href="../migration_guides/index.html" title="Next Chapter: Migration Guides">
+      Migration Guides
     </a>
   </li>
 </ul>
@@ -283,7 +278,7 @@ At some point, we&#8217;ll provide a native support.</p>
 
 <footer id="footer" style="position:static">
   <section class="row-fluid">
-    <div class="content-wrapper text-center">&copy;2015 Gatling Corp 2000-2015</div>
+    <div class="content-wrapper text-center">&copy;2016 Gatling Corp 2000-2016</div>
   </section>
 </footer>
 

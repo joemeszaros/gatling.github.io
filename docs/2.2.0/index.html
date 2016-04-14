@@ -18,7 +18,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '2.0.0-SNAPSHOT',
+        VERSION:     '2.2.0',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -30,7 +30,7 @@
     <script type="text/javascript" src="/vendor/javascripts/modernizr.min.js"></script>
     <script type="text/javascript" src="/vendor/javascripts/bootstrap.min.js"></script>
     <link rel="top" title="Gatling documentation" href="#" />
-    <link rel="next" title="Quickstart" href="quickstart.html" />
+    <link rel="next" title="What’s New" href="whats_new/index.html" />
 <!--[if IE]>
 <script src="/vendor/javascripts/html5shiv.min.js"></script>
 <![endif]-->
@@ -136,16 +136,18 @@ For example, Gatling currently also ships JMS support.</p>
 <p>Having <em>scenarios</em> that are defined in code and are resource efficient are the two requirements that motivated us to create Gatling. Based on an expressive <a class="reference external" href="http://en.wikipedia.org/wiki/Domain-specific_language">DSL</a>, the <em>scenarios</em> are self explanatory. They are easy to maintain and can be kept in a version control system.</p>
 <p>Gatling&#8217;s architecture is asynchronous as long as the underlying protocol, such as HTTP, can be implemented in a non blocking way. This kind of architecture lets us implement virtual users as messages instead of dedicated threads, making them very resource cheap. Thus, running thousands of concurrent virtual users is not an issue.</p>
 <div class="section" id="migrating-from-a-previous-version-of-gatling">
-<h2>Migrating from a previous version of Gatling<a class="headerlink" href="#migrating-from-a-previous-version-of-gatling" title="Permalink to this headline">¶</a></h2>
+<h2>Migrating from a Previous Version of Gatling<a class="headerlink" href="#migrating-from-a-previous-version-of-gatling" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>If you&#8217;re migrating from Gatling 2.1 to Gatling 2.2, please consult the <a class="reference internal" href="project/migration_guides/2.1-to-2.2.html#to-2-2"><span>dedicated migration guide</span></a>.</li>
-<li>Otherwise, please follow the <a class="reference internal" href="project/migration_guides/index.html#migration-guides"><span>previous migration guides</span></a>.</li>
+<li>If you&#8217;re migrating from Gatling 2.1 to Gatling 2.2, please check the <a class="reference internal" href="migration_guides/2.1-to-2.2.html#to-2-2"><span>dedicated migration guide</span></a>.</li>
+<li>Otherwise, please follow the <a class="reference internal" href="migration_guides/index.html#migration-guides"><span>previous migration guides</span></a>.</li>
 </ul>
 </div>
 <div class="section" id="user-s-guide">
 <h2>User&#8217;s guide<a class="headerlink" href="#user-s-guide" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="whats_new/index.html">What&#8217;s New</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration_guides/index.html">Migration Guides</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advanced_tutorial.html">Advanced Tutorial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/index.html">General</a></li>
@@ -168,7 +170,7 @@ For example, Gatling currently also ships JMS support.</p>
           <aside id="affix" class="visible-md visible-lg">
             <ul class="nav">
 <li><a class="reference internal" href="#">Gatling</a><ul class="nav">
-<li><a class="reference internal" href="#migrating-from-a-previous-version-of-gatling">Migrating from a previous version of Gatling</a></li>
+<li><a class="reference internal" href="#migrating-from-a-previous-version-of-gatling">Migrating from a Previous Version of Gatling</a></li>
 <li><a class="reference internal" href="#user-s-guide">User&#8217;s guide</a></li>
 </ul>
 </li>
@@ -182,8 +184,8 @@ For example, Gatling currently also ships JMS support.</p>
   </li>
   <h5>Next topic</h5>
   <li>
-    <a href="quickstart.html" title="Next Chapter: Quickstart">
-      Quickstart
+    <a href="whats_new/index.html" title="Next Chapter: What’s New">
+      What’s New
     </a>
   </li>
 </ul>
@@ -196,7 +198,7 @@ For example, Gatling currently also ships JMS support.</p>
 
 <footer id="footer" style="position:static">
   <section class="row-fluid">
-    <div class="content-wrapper text-center">&copy;2015 Gatling Corp 2000-2015</div>
+    <div class="content-wrapper text-center">&copy;2016 Gatling Corp 2000-2016</div>
   </section>
 </footer>
 
