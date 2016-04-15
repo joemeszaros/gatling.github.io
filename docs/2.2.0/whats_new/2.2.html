@@ -183,7 +183,7 @@ You&#8217;re expected to manually add the suited library to Gatling&#8217;s clas
 If you use DNS round-robin, this will balance your virtual users amongst the nodes of a static cluster.</p>
 <p>Alternatively, you can enable <code class="docutils literal"><span class="pre">perUserNameResolution</span></code> on the HTTP protocol and have each virtual user perform DNS resolution on its own.
 This, way, your virtual users would be properly balanced if your cluster grows elastically under load.
-See <span class="xref std std-ref">HTTP protocol documentation</span> for more details.</p>
+See <a class="reference internal" href="../http/http_protocol.html#http-protocol-hostname-resolution"><span>HTTP protocol documentation</span></a> for more details.</p>
 <p>We also support DNS fail-over, meaning that virtual users will try the next DNS record of they couldn&#8217;t connect to the first address.</p>
 </div>
 <div class="section" id="hostname-aliasing">

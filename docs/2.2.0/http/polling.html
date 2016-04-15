@@ -163,11 +163,7 @@ you have to give them a name and pass this name on each polling operation:</p>
 <p>When you don&#8217;t need to poll a request anymore, you can stop the poller:</p>
 <p><code class="docutils literal"><span class="pre">poller.stop</span></code></p>
 <p>For example:</p>
-<div class="highlight-scala"><div class="highlight"><pre><span class="n">exec</span><span class="o">(</span>
-  <span class="n">polling</span>
-    <span class="o">.</span><span class="n">every</span><span class="o">(</span><span class="mi">10</span> <span class="n">seconds</span><span class="o">)</span>
-    <span class="o">.</span><span class="n">exec</span><span class="o">(</span><span class="n">http</span><span class="o">(</span><span class="s">&quot;name&quot;</span><span class="o">).</span><span class="n">get</span><span class="o">(</span><span class="s">&quot;url&quot;</span><span class="o">))</span>
-<span class="o">)</span>
+<div class="highlight-scala"><div class="highlight"><pre><span class="n">exec</span><span class="o">(</span><span class="n">polling</span><span class="o">.</span><span class="n">stop</span><span class="o">)</span>
 </pre></div>
 </div>
 <div class="admonition note">
