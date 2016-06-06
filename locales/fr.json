@@ -218,6 +218,9 @@
   "CONTACT_EMAIL" : "E-mail:",
   "CONTACT_FOLLOW_US" : "Follow us on:",
 
+  "CONTACT_ADVERTISER1": "Sur notre <a href=\"https://groups.google.com/forum/#!forum/gatling\" target=\"_blank\">Mailing list</a>, le support est fournis sur la base du volontariat par la <b>communauté Gatling</b> et non par <b>l'équipe Gatling</b>, il n'y a aucune garantie d'obtenir une réponse.",
+  "CONTACT_ADVERTISER2": "Choisissez notre offre support et entrez en contact avec notre équipe ! Nous répondrons à vos question aussi vite que possible (Pour consulter les questions en rapport, e.g. revue de vos scénarios de test, regardez nos offres plus bas).",
+
   "TALKS" : "Talks",
   "TALKS_UPCOMING" : "Upcoming",
   "TALKS_NO_UPCOMING" : "No upcoming talks",

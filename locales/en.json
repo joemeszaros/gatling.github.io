@@ -230,6 +230,9 @@
   "CONTACT_EMAIL" : "E-mail:",
   "CONTACT_FOLLOW_US" : "Follow us on:",
 
+  "CONTACT_ADVERTISER1": "On our <a href=\"https://groups.google.com/forum/#!forum/gatling\" target=\"_blank\">Mailing list</a>, support is provided voluntarily by <b>Gatling community</b> not by <b>Gatling Team</b> and there is no guarantee for getting a response.",
+  "CONTACT_ADVERTISER2": "Get our support offer and get in touch with our team! We will answer your questions as fast as we can (for consulting related questions, e.g. review of your test scenarios, see our offers below).",
+
   "TALKS" : "Talks",
   "TALKS_UPCOMING" : "Upcoming",
   "TALKS_NO_UPCOMING" : "No upcoming talks",
