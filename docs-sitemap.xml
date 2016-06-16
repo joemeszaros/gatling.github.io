@@ -1,380 +1,380 @@
 <?xml version="1.0" encoding="UTF_8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://gatling.io/docs/2.2.1/advanced_tutorial.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/advanced_tutorial.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/cookbook/handling_jsf.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/cookbook/handling_jsf.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/cookbook/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/cookbook/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/cookbook/passing_parameters.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/cookbook/passing_parameters.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/cookbook/scaling_out.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/cookbook/scaling_out.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/developing_gatling/building_gatling.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/developing_gatling/building_gatling.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/developing_gatling/dev_guidelines.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/developing_gatling/dev_guidelines.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/developing_gatling/doc_guidelines.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/developing_gatling/doc_guidelines.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/developing_gatling/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/developing_gatling/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/jenkins_plugin.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/jenkins_plugin.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/maven_archetype.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/maven_archetype.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/maven_plugin.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/maven_plugin.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/sbt_plugin.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/sbt_plugin.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/extensions/vtd_xml.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/extensions/vtd_xml.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/assertions.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/assertions.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/bundle_structure.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/bundle_structure.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/concepts.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/concepts.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/configuration.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/configuration.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/functional_specs.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/functional_specs.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/operations.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/operations.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/reports.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/reports.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/scenario.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/scenario.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/simulation_setup.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/simulation_setup.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/simulation_structure.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/simulation_structure.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/general/timings.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/general/timings.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/http_check.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/http_check.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/http_helpers.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/http_helpers.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/http_protocol.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/http_protocol.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/http_request.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/http_request.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/http_ssl.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/http_ssl.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/polling.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/polling.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/recorder.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/recorder.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/sse.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/sse.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/http/websocket.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/http/websocket.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/jms.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/jms.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/migration_guides/1.5.x-to-2.0.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/migration_guides/1.5.x-to-2.0.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/migration_guides/2.0-to-2.1.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/migration_guides/2.0-to-2.1.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/migration_guides/2.0.0-M3a-to-2.0.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/migration_guides/2.0.0-M3a-to-2.0.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/migration_guides/2.1-to-2.2.html</loc>
-    <lastmod>2016-06-01T12:51:59+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/migration_guides/2.1-to-2.2.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/migration_guides/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/migration_guides/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/ci.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/ci.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/events.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/events.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/faq.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/faq.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/issue_tracking.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/issue_tracking.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/licenses.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/licenses.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/online_resources.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/online_resources.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/sponsors.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/sponsors.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/project/third-party_libraries.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/project/third-party_libraries.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/quickstart.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/quickstart.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/realtime_monitoring/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/realtime_monitoring/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/search.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/search.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/session/expression_el.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/session/expression_el.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/session/feeder.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/session/feeder.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/session/index.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/session/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/session/session_api.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/session/session_api.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/session/validation.html</loc>
-    <lastmod>2016-05-20T13:35:01+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/session/validation.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/whats_new/2.2.html</loc>
-    <lastmod>2016-05-20T13:32:54+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/whats_new/2.2.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gatling.io/docs/2.2.1/whats_new/index.html</loc>
-    <lastmod>2016-05-20T13:32:54+02:00</lastmod>
+    <loc>http://gatling.io/docs/2.2.2/whats_new/index.html</loc>
+    <lastmod>2016-06-16T16:33:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
