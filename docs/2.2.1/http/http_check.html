@@ -627,10 +627,11 @@ a Success containing the value to be passed to the next step, a Failure with the
 <div class="section" id="conditional-checking">
 <span id="http-check-conditional"></span><h2>Conditional Checking<a class="headerlink" href="#conditional-checking" title="Permalink to this headline">¶</a></h2>
 <p>Check execution can be enslave to a condition.</p>
-<p><code class="docutils literal"><span class="pre">checkIf(condition)(thenCheck)</span></code></p>
-<p>The condition can be of two types:
-* Expression[Boolean]
-* (Response, Session) =&gt; Validation[Boolean]</p>
+<p>The condition can be of two types:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">Expression[Boolean]</span></code></li>
+<li><code class="docutils literal"><span class="pre">(Response, Session) =&gt; Validation[Boolean]</span></code></li>
+</ul>
 <p>Nested thenCheck will only be performed if condition is successful.</p>
 </div>
 <div class="section" id="putting-it-all-together">
