@@ -5,8 +5,8 @@ define([], function () {
   return {
 
     version: {
-      stable: '2.2.2',
-      development: '2.2.3-SNAPSHOT'
+      stable: '2.2.3'
+      //development: '2.2.4-SNAPSHOT'
     },
 
     stories: [
