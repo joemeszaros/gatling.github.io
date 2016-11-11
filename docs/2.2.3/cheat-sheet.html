@@ -942,19 +942,6 @@
             Perform the assertion on the fourth percentile of the stat
           </div>
         </div>
-
-        <div class="function">
-          <label class="function-syntax" for="percentile">percentile</label>
-          <input type="checkbox" id="percentile" name="percentile">
-
-          <div class="function-details">
-            Perform the assertion on the given percentile of the stat
-            <dl>
-              <dt>(value)</dt>
-              <dd>The double value of percentile rank, between 0 and 100</dd>
-            </dl>
-          </div>
-        </div>
       </div>
 
       <!-- Count selectors -->
@@ -1872,23 +1859,6 @@
             <div class="function-details">
               Specifies that every value matching the check definition should be extracted for verification. The resulting
               type is a list of extracted values.
-            </div>
-          </div>
-
-          <div class="function">
-            <label class="function-syntax" for="findRandom">findRandom</label>
-            <input type="checkbox" id="findRandom" name="findRandom">
-
-            <div class="function-details">
-              Fetches random matches.
-              <dl>
-                <dt>&oslash;</dt>
-                <dd>If used as <i>findRandom</i> fetches one single match, returns a single value.</dd>
-                <dt>(num: Int)</dt>
-                <dd>Fetches a given number of occurrences, returns a Seq.</dd>
-                <dt>(num: Int, failIfLess: Boolean)</dt>
-                <dd>Same as above, but fails if the number of actual matches is less than num.</dd>
-              </dl>
             </div>
           </div>
 

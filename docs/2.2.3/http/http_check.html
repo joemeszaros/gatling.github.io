@@ -18,7 +18,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     '2.3.0-SNAPSHOT',
+        VERSION:     '2.2.3',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -522,19 +522,11 @@ They are then discarded if not needed.</p>
 <li><code class="docutils literal"><span class="pre">findAll</span></code></li>
 </ul>
 <p>Returns a List of all the occurrences.</p>
-<ul class="simple" id="http-check-find-random">
-<li><code class="docutils literal"><span class="pre">findRandom</span></code></li>
-</ul>
-<p>Returns a random match.</p>
-<ul class="simple">
-<li><code class="docutils literal"><span class="pre">findRandom(num:</span> <span class="pre">Int)</span></code> and <code class="docutils literal"><span class="pre">findRandom(num:</span> <span class="pre">Int,</span> <span class="pre">failIfLess</span> <span class="pre">=</span> <span class="pre">true)</span></code></li>
-</ul>
-<p>Returns a given number of random matches, optionally failing is the number of actual matches is less than the expected number.</p>
 <ul class="simple" id="http-check-count">
 <li><code class="docutils literal"><span class="pre">count</span></code></li>
 </ul>
 <p>Returns the number of occurrences.</p>
-<p><code class="docutils literal"><span class="pre">find(occurrence)</span></code>, <code class="docutils literal"><span class="pre">findAll</span></code>, <code class="docutils literal"><span class="pre">findRandom</span></code> and <code class="docutils literal"><span class="pre">count</span></code> are only available on check types that might produce multiple results.
+<p><code class="docutils literal"><span class="pre">find(occurrence)</span></code>, <code class="docutils literal"><span class="pre">findAll</span></code> and <code class="docutils literal"><span class="pre">count</span></code> are only available on check types that might produce multiple results.
 For example, <code class="docutils literal"><span class="pre">status</span></code> only has <code class="docutils literal"><span class="pre">find</span></code>.</p>
 </div>
 </div>
