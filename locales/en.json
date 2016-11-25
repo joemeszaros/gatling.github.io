@@ -5,7 +5,7 @@
   "MENU_RESOURCES_TALKS" : "Talks",
   "MENU_RESOURCES_ABOUT" : "About Gatling",
   "MENU_PROFESSIONAL_SERVICES" : "PROFESSIONAL SERVICES",
-  "MENU_PROFESSIONAL_SERVICES_SUPPORT" : "Support & Consulting",
+  "MENU_PROFESSIONAL_SERVICES_SUPPORT" : "Helpdesk & Consulting",
   "MENU_PROFESSIONAL_SERVICES_TRAINING" : "Training",
   "MENU_PROFESSIONAL_SERVICES_FRONTLINE" : "Gatling FrontLine&reg;",
   "MENU_PROFESSIONAL_SERVICES_STORIES" : "Users stories",
@@ -231,7 +231,7 @@
   "CONTACT_FOLLOW_US" : "Follow us on:",
 
   "CONTACT_ADVERTISER1": "On our <a href=\"https://groups.google.com/forum/#!forum/gatling\" target=\"_blank\">Mailing list</a>, support is provided voluntarily by <b>Gatling community</b> not by <b>Gatling Team</b> and there is no guarantee for getting a response.",
-  "CONTACT_ADVERTISER2": "Get our support offer and get in touch with our team! We will answer your questions as fast as we can (for consulting related questions, e.g. review of your test scenarios, see our offers below).",
+  "CONTACT_ADVERTISER2": "Get our helpdesk offer and get in touch with our team! We will answer your questions as fast as we can (for consulting related questions, e.g. review of your test scenarios, see our offers below).",
 
   "TALKS" : "Talks",
   "TALKS_UPCOMING" : "Upcoming",
