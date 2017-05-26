@@ -6,15 +6,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
+
     <title>Feeders &mdash; Gatling documentation</title>
-    
+
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" />
     <link rel="stylesheet" href="/styles/main.css" type="text/css" />
-    
+
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
@@ -131,7 +131,7 @@
               Feeders
             </a></li>
           </ul>
-          
+
   <div class="section" id="feeders">
 <span id="feeder"></span><h1>Feeders<a class="headerlink" href="#feeders" title="Permalink to this headline">¶</a></h1>
 <p>Feeder is a type alias for <code class="docutils literal"><span class="pre">Iterator[Map[String,</span> <span class="pre">T]]</span></code>, meaning that the component created by the feed method will poll <code class="docutils literal"><span class="pre">Map[String,</span> <span class="pre">T]</span></code> records and inject its content.</p>
@@ -161,7 +161,7 @@ For example, if the columns are name &#8220;foo&#8221; and &#8220;bar&#8221; and
 Moreover, this implicit conversion also provides some additional methods for defining the way the Seq is iterated over:</p>
 <div class="highlight-scala"><div class="highlight"><pre><span class="o">.</span><span class="n">queue</span>    <span class="c1">// default behavior: use an Iterator on the underlying sequence</span>
 <span class="o">.</span><span class="n">random</span>   <span class="c1">// randomly pick an entry in the sequence</span>
-<span class="o">.</span><span class="n">shuffle</span>  <span class="c1">// shuffle entries, then behave live queue</span>
+<span class="o">.</span><span class="n">shuffle</span>  <span class="c1">// shuffle entries, then behave like queue</span>
 <span class="o">.</span><span class="n">circular</span> <span class="c1">// go back to the top of the sequence once the end is reached</span>
 </pre></div>
 </div>
@@ -448,7 +448,7 @@ depending on what has been injected from the first one.</p>
 </li>
 </ul>
 
-            
+
 <hr>
 <ul class="nav">
   <li>
